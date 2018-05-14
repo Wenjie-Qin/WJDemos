@@ -24,6 +24,7 @@
     [self.view addSubview:xibView];
     
     NSLog(@"laoqinzuishuai");
+    NSLog(@"版本一 增加一些东西");
 }
 
 - (void)didReceiveMemoryWarning {
