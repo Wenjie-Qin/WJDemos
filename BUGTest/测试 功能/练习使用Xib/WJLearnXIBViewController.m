@@ -22,6 +22,8 @@
     WJLearnXIBView *xibView = [[WJLearnXIBView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     xibView.backgroundColor = [UIColor redColor];
     [self.view addSubview:xibView];
+    
+    NSLog(@"laoqinzuishuai");
 }
 
 - (void)didReceiveMemoryWarning {
