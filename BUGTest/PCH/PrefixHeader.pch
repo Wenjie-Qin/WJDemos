@@ -1,0 +1,91 @@
+//
+//  PrefixHeader.pch
+//  JDZS
+//
+//  Created by Mac on 2018/3/23.
+//  Copyright © 2018年 Mac. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define WS(weakSelf)            __weak __typeof(&*self) weakSelf = self;
+
+#define USER_D                  [NSUserDefaults standardUserDefaults]
+#define NOTI_CENTER             [NSNotificationCenter defaultCenter]
+#define FILE_M                  [NSFileManager defaultManager]
+
+#define APP_VERSION_KEY         @"APP_VERSION_KEY"      // 存、取手机版本信息
+#define APP_ONLY_WIFI_PLAY      @"APP_ONLY_WIFI_PLAY"   // 仅WiFi 下观看视频
+#define WEATHER_DES_KEY         @"WEATHER_DES_KEY"      // 天气描述
+
+#define AUTH_KEY                @"authKey"      // 唯一标识（账号、密码、日期生成的一个东西）
+#define SESSION_ID              @"sessionId"    // 会话 ID
+#define REMEMBER_KEY            @"rememberKey"  // 暂时无用
+#define USER_PTYH               @"getPTYHDic"
+
+
+
+
+/*  接口IP
+ *
+ *  @param 外网   **********
+ *  @param 内网   192.168.31.142:8080
+                 haier.vv3c.com
+ *  @param 内网   vv5cshow.vv3c.com
+ *  @param 内网   vv4c.vv3c.com
+ */
+#define WJREQUEST_IP            @"vv5cshow.vv3c.com"
+#define WJ_SERVLET              [NSString stringWithFormat:@"http://%@/front/",WJREQUEST_IP]
+#define WJ_UPLOAD_SERVLET       [NSString stringWithFormat:@"http://%@/admin/Upload",WJREQUEST_IP]
+
+
+#define WJ_WEB_BASE_IP                  @"h5.vv3c.com"
+#define WJ_WEB_TODAY_URL                [NSString stringWithFormat:@"http://%@?hybrid=ios",WJ_WEB_BASE_IP]
+#define WJ_WEB_TODAY_DE_URL(todayID)    [NSString stringWithFormat:@"http://%@/today/%@?hybrid=ios",WJ_WEB_BASE_IP, todayID]
+#define WJ_WEB_PRO_URL(spID)            [NSString stringWithFormat:@"http://%@/product/detail/id/%@?hybrid=ios",WJ_WEB_BASE_IP, spID]
+
+
+
+/*  18358115802
+ *  1
+ *  @param a
+ *
+ *  return b
+ */
+
+#endif /* PrefixHeader_pch */
+
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#import "WJNotiMacro.h"
+#import "MBHUDMacro.h"
+#import "WJUIMacro.h"
+
+#import "WJRequestHelper.h"
+#import "WJStringHelper.h"
+#import "WJDateHelper.h"
+#import "WJDataHelper.h"
+#import "WJUserHelper.h"
+#import "WJUIHelper.h"
+#import "WJJSHelper.h"
+
+
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <AFNetworking/AFNetworking.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+#import <MJRefresh/MJRefresh.h>
+#import <Masonry/Masonry.h>
+
+
+#endif

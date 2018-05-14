@@ -1,0 +1,15 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'BUGTest' do 
+  pod 'MBProgressHUD', '~> 1.1.0'
+  pod 'SDWebImage', '~>3.7.6'
+  pod 'Masonry', '~>1.0.0'
+  pod 'AFNetworking', '~> 3.1.0'
+  pod 'IQKeyboardManager', '~> 5.0.6'
+  pod 'MJRefresh', '~> 3.1'
+  pod 'ZJScrollPageView', '~> 0.4'
+  pod 'ReactiveObjC', '~> 3.1.0'
+  pod 'BaiduMapKit'
+
+end

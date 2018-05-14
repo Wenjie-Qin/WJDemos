@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="WJNewbieGuideCell">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BBD-GG-BfB">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Suz-6S-csQ">
+                        <rect key="frame" x="25" y="220" width="150" height="35"/>
+                        <color key="backgroundColor" red="1" green="0.59323673572420432" blue="0.75181709855362633" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="Hyr-fE-KUB"/>
+                            <constraint firstAttribute="height" constant="35" id="M59-K1-awX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="立即体验"/>
+                        <connections>
+                            <action selector="beginClick:" destination="gTV-IL-0wX" eventType="touchUpInside" id="JkB-1T-uJb"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="BBD-GG-BfB" secondAttribute="bottom" id="BM5-v7-Gsq"/>
+                <constraint firstItem="BBD-GG-BfB" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Knm-d8-dlI"/>
+                <constraint firstItem="BBD-GG-BfB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Wly-6H-QjG"/>
+                <constraint firstAttribute="trailing" secondItem="BBD-GG-BfB" secondAttribute="trailing" id="cjz-Rk-Xl6"/>
+                <constraint firstItem="Suz-6S-csQ" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="hQF-y0-0DZ"/>
+                <constraint firstAttribute="bottom" secondItem="Suz-6S-csQ" secondAttribute="bottom" constant="45" id="rL9-XQ-d2Y"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="64" height="62"/>
+            <connections>
+                <outlet property="beginPlay" destination="Suz-6S-csQ" id="4mW-de-vhc"/>
+                <outlet property="bgIcon" destination="BBD-GG-BfB" id="WIO-cL-HH5"/>
+            </connections>
+            <point key="canvasLocation" x="33" y="58"/>
+        </collectionViewCell>
+    </objects>
+</document>

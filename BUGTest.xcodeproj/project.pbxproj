@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043B00BC20A2D0CA006DEEC4 /* WJTestDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 043B00BB20A2D0CA006DEEC4 /* WJTestDemo.m */; };
 		043F608020A1713F00FE951F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F607F20A1713F00FE951F /* AppDelegate.m */; };
 		043F608320A1713F00FE951F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F608220A1713F00FE951F /* ViewController.m */; };
 		043F608620A1713F00FE951F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043F608420A1713F00FE951F /* Main.storyboard */; };
@@ -15,6 +16,22 @@
 		043F608E20A1714200FE951F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F608D20A1714200FE951F /* main.m */; };
 		043F609820A1714200FE951F /* BUGTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F609720A1714200FE951F /* BUGTestTests.m */; };
 		043F60A320A1714200FE951F /* BUGTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F60A220A1714200FE951F /* BUGTestUITests.m */; };
+		043F60C020A1865500FE951F /* WJRequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F60B320A1865100FE951F /* WJRequestHelper.m */; };
+		043F60C120A1865500FE951F /* WJUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F60B420A1865100FE951F /* WJUIHelper.m */; };
+		043F60C220A1865500FE951F /* WJStringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F60B520A1865200FE951F /* WJStringHelper.m */; };
+		043F60C320A1865500FE951F /* WJDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F60B720A1865200FE951F /* WJDateHelper.m */; };
+		043F60C420A1865500FE951F /* WJUserHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F60B920A1865300FE951F /* WJUserHelper.m */; };
+		043F60C520A1865500FE951F /* WJDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F60BA20A1865300FE951F /* WJDataHelper.m */; };
+		043F60C620A1865500FE951F /* WJJSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F60BE20A1865400FE951F /* WJJSHelper.m */; };
+		04A3815A20A92DA400C65FED /* WJNewbieGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3815920A92DA400C65FED /* WJNewbieGuideViewController.m */; };
+		04A3816320A92FD200C65FED /* WJNewbieGuideCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3816120A92FD200C65FED /* WJNewbieGuideCell.m */; };
+		04A3816420A92FD200C65FED /* WJNewbieGuideCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A3816220A92FD200C65FED /* WJNewbieGuideCell.xib */; };
+		04A3816D20A933DB00C65FED /* WJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3816C20A933DB00C65FED /* WJBaseViewController.m */; };
+		04A3817120A936EA00C65FED /* WJLearnXIBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3817020A936EA00C65FED /* WJLearnXIBViewController.m */; };
+		04A3817320A9371300C65FED /* WJLearnXIBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A3817220A9371300C65FED /* WJLearnXIBViewController.xib */; };
+		04A3817620A9597800C65FED /* WJLearnXIBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3817520A9597800C65FED /* WJLearnXIBView.m */; };
+		04A3817A20A9608400C65FED /* WJLearnXIBView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A3817920A9608400C65FED /* WJLearnXIBView.xib */; };
+		A3E7AEA7856C9D0946F430A6 /* Pods_BUGTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC2F099B0EA6237E6F482B9 /* Pods_BUGTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043B00BA20A2D0CA006DEEC4 /* WJTestDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJTestDemo.h; sourceTree = "<group>"; };
+		043B00BB20A2D0CA006DEEC4 /* WJTestDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJTestDemo.m; sourceTree = "<group>"; };
 		043F607B20A1713F00FE951F /* BUGTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BUGTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043F607E20A1713F00FE951F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		043F607F20A1713F00FE951F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +70,40 @@
 		043F609E20A1714200FE951F /* BUGTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BUGTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		043F60A220A1714200FE951F /* BUGTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BUGTestUITests.m; sourceTree = "<group>"; };
 		043F60A420A1714200FE951F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043F60B220A1865100FE951F /* WJJSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJJSHelper.h; sourceTree = "<group>"; };
+		043F60B320A1865100FE951F /* WJRequestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJRequestHelper.m; sourceTree = "<group>"; };
+		043F60B420A1865100FE951F /* WJUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJUIHelper.m; sourceTree = "<group>"; };
+		043F60B520A1865200FE951F /* WJStringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJStringHelper.m; sourceTree = "<group>"; };
+		043F60B620A1865200FE951F /* WJStringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJStringHelper.h; sourceTree = "<group>"; };
+		043F60B720A1865200FE951F /* WJDateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJDateHelper.m; sourceTree = "<group>"; };
+		043F60B820A1865300FE951F /* WJUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJUIHelper.h; sourceTree = "<group>"; };
+		043F60B920A1865300FE951F /* WJUserHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJUserHelper.m; sourceTree = "<group>"; };
+		043F60BA20A1865300FE951F /* WJDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJDataHelper.m; sourceTree = "<group>"; };
+		043F60BB20A1865300FE951F /* WJRequestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJRequestHelper.h; sourceTree = "<group>"; };
+		043F60BC20A1865400FE951F /* WJDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJDataHelper.h; sourceTree = "<group>"; };
+		043F60BD20A1865400FE951F /* WJDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJDateHelper.h; sourceTree = "<group>"; };
+		043F60BE20A1865400FE951F /* WJJSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJJSHelper.m; sourceTree = "<group>"; };
+		043F60BF20A1865500FE951F /* WJUserHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJUserHelper.h; sourceTree = "<group>"; };
+		043F60C820A1867A00FE951F /* WJUIMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJUIMacro.h; sourceTree = "<group>"; };
+		043F60C920A1867B00FE951F /* MBHUDMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBHUDMacro.h; sourceTree = "<group>"; };
+		043F60CA20A1867B00FE951F /* WJNotiMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJNotiMacro.h; sourceTree = "<group>"; };
+		043F60CB20A1867B00FE951F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04A3815820A92DA400C65FED /* WJNewbieGuideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJNewbieGuideViewController.h; sourceTree = "<group>"; };
+		04A3815920A92DA400C65FED /* WJNewbieGuideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJNewbieGuideViewController.m; sourceTree = "<group>"; };
+		04A3816020A92FD200C65FED /* WJNewbieGuideCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJNewbieGuideCell.h; sourceTree = "<group>"; };
+		04A3816120A92FD200C65FED /* WJNewbieGuideCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJNewbieGuideCell.m; sourceTree = "<group>"; };
+		04A3816220A92FD200C65FED /* WJNewbieGuideCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WJNewbieGuideCell.xib; sourceTree = "<group>"; };
+		04A3816B20A933DB00C65FED /* WJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJBaseViewController.h; sourceTree = "<group>"; };
+		04A3816C20A933DB00C65FED /* WJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJBaseViewController.m; sourceTree = "<group>"; };
+		04A3816F20A936EA00C65FED /* WJLearnXIBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJLearnXIBViewController.h; sourceTree = "<group>"; };
+		04A3817020A936EA00C65FED /* WJLearnXIBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJLearnXIBViewController.m; sourceTree = "<group>"; };
+		04A3817220A9371300C65FED /* WJLearnXIBViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WJLearnXIBViewController.xib; sourceTree = "<group>"; };
+		04A3817420A9597800C65FED /* WJLearnXIBView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJLearnXIBView.h; sourceTree = "<group>"; };
+		04A3817520A9597800C65FED /* WJLearnXIBView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJLearnXIBView.m; sourceTree = "<group>"; };
+		04A3817920A9608400C65FED /* WJLearnXIBView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WJLearnXIBView.xib; sourceTree = "<group>"; };
+		38468ABBF1AE103D8E09A806 /* Pods-BUGTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BUGTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BUGTest/Pods-BUGTest.debug.xcconfig"; sourceTree = "<group>"; };
+		CEC2F099B0EA6237E6F482B9 /* Pods_BUGTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BUGTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA345E0D89D95945C133283B /* Pods-BUGTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BUGTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-BUGTest/Pods-BUGTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3E7AEA7856C9D0946F430A6 /* Pods_BUGTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +132,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03A40CA060625AD7942CDC99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEC2F099B0EA6237E6F482B9 /* Pods_BUGTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		043F607220A1713F00FE951F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +147,8 @@
 				043F609620A1714200FE951F /* BUGTestTests */,
 				043F60A120A1714200FE951F /* BUGTestUITests */,
 				043F607C20A1713F00FE951F /* Products */,
+				D8DEA18B0186E897BBD142B0 /* Pods */,
+				03A40CA060625AD7942CDC99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +165,13 @@
 		043F607D20A1713F00FE951F /* BUGTest */ = {
 			isa = PBXGroup;
 			children = (
+				04A3816520A9317E00C65FED /* 测试 功能 */,
+				04A3815520A92BCC00C65FED /* 其他 Demo */,
+				04A3815420A92BBC00C65FED /* BUG Test */,
+				04A3815320A92BAE00C65FED /* UI Demos */,
+				04A3816920A9338200C65FED /* Base 基类 */,
+				043F60B020A1860B00FE951F /* 工具类 */,
+				043F60C720A1866000FE951F /* PCH */,
 				043F607E20A1713F00FE951F /* AppDelegate.h */,
 				043F607F20A1713F00FE951F /* AppDelegate.m */,
 				043F608120A1713F00FE951F /* ViewController.h */,
@@ -132,6 +203,145 @@
 			path = BUGTestUITests;
 			sourceTree = "<group>";
 		};
+		043F60B020A1860B00FE951F /* 工具类 */ = {
+			isa = PBXGroup;
+			children = (
+				043F60B120A1862500FE951F /* WJHelper */,
+			);
+			path = "工具类";
+			sourceTree = "<group>";
+		};
+		043F60B120A1862500FE951F /* WJHelper */ = {
+			isa = PBXGroup;
+			children = (
+				043F60BC20A1865400FE951F /* WJDataHelper.h */,
+				043F60BA20A1865300FE951F /* WJDataHelper.m */,
+				043F60BD20A1865400FE951F /* WJDateHelper.h */,
+				043F60B720A1865200FE951F /* WJDateHelper.m */,
+				043F60B220A1865100FE951F /* WJJSHelper.h */,
+				043F60BE20A1865400FE951F /* WJJSHelper.m */,
+				043F60BB20A1865300FE951F /* WJRequestHelper.h */,
+				043F60B320A1865100FE951F /* WJRequestHelper.m */,
+				043F60B620A1865200FE951F /* WJStringHelper.h */,
+				043F60B520A1865200FE951F /* WJStringHelper.m */,
+				043F60B820A1865300FE951F /* WJUIHelper.h */,
+				043F60B420A1865100FE951F /* WJUIHelper.m */,
+				043F60BF20A1865500FE951F /* WJUserHelper.h */,
+				043F60B920A1865300FE951F /* WJUserHelper.m */,
+			);
+			path = WJHelper;
+			sourceTree = "<group>";
+		};
+		043F60C720A1866000FE951F /* PCH */ = {
+			isa = PBXGroup;
+			children = (
+				043F60CB20A1867B00FE951F /* PrefixHeader.pch */,
+				043F60C920A1867B00FE951F /* MBHUDMacro.h */,
+				043F60CA20A1867B00FE951F /* WJNotiMacro.h */,
+				043F60C820A1867A00FE951F /* WJUIMacro.h */,
+			);
+			path = PCH;
+			sourceTree = "<group>";
+		};
+		04A3815320A92BAE00C65FED /* UI Demos */ = {
+			isa = PBXGroup;
+			children = (
+				04A3815620A92CCA00C65FED /* UICollectionView */,
+			);
+			path = "UI Demos";
+			sourceTree = "<group>";
+		};
+		04A3815420A92BBC00C65FED /* BUG Test */ = {
+			isa = PBXGroup;
+			children = (
+				04A3816720A931BE00C65FED /* 奇葩的空格符 */,
+			);
+			path = "BUG Test";
+			sourceTree = "<group>";
+		};
+		04A3815520A92BCC00C65FED /* 其他 Demo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "其他 Demo";
+			sourceTree = "<group>";
+		};
+		04A3815620A92CCA00C65FED /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				04A3815720A92CDB00C65FED /* 新手引导页 */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		04A3815720A92CDB00C65FED /* 新手引导页 */ = {
+			isa = PBXGroup;
+			children = (
+				04A3815820A92DA400C65FED /* WJNewbieGuideViewController.h */,
+				04A3815920A92DA400C65FED /* WJNewbieGuideViewController.m */,
+				04A3816020A92FD200C65FED /* WJNewbieGuideCell.h */,
+				04A3816120A92FD200C65FED /* WJNewbieGuideCell.m */,
+				04A3816220A92FD200C65FED /* WJNewbieGuideCell.xib */,
+			);
+			path = "新手引导页";
+			sourceTree = "<group>";
+		};
+		04A3816520A9317E00C65FED /* 测试 功能 */ = {
+			isa = PBXGroup;
+			children = (
+				04A3816620A9318F00C65FED /* 练习使用Xib */,
+			);
+			path = "测试 功能";
+			sourceTree = "<group>";
+		};
+		04A3816620A9318F00C65FED /* 练习使用Xib */ = {
+			isa = PBXGroup;
+			children = (
+				04A3816F20A936EA00C65FED /* WJLearnXIBViewController.h */,
+				04A3817020A936EA00C65FED /* WJLearnXIBViewController.m */,
+				04A3817220A9371300C65FED /* WJLearnXIBViewController.xib */,
+				04A3817420A9597800C65FED /* WJLearnXIBView.h */,
+				04A3817520A9597800C65FED /* WJLearnXIBView.m */,
+				04A3817920A9608400C65FED /* WJLearnXIBView.xib */,
+			);
+			path = "练习使用Xib";
+			sourceTree = "<group>";
+		};
+		04A3816720A931BE00C65FED /* 奇葩的空格符 */ = {
+			isa = PBXGroup;
+			children = (
+				043B00BA20A2D0CA006DEEC4 /* WJTestDemo.h */,
+				043B00BB20A2D0CA006DEEC4 /* WJTestDemo.m */,
+			);
+			path = "奇葩的空格符";
+			sourceTree = "<group>";
+		};
+		04A3816920A9338200C65FED /* Base 基类 */ = {
+			isa = PBXGroup;
+			children = (
+				04A3816A20A9339A00C65FED /* 视图控制器_VC */,
+			);
+			path = "Base 基类";
+			sourceTree = "<group>";
+		};
+		04A3816A20A9339A00C65FED /* 视图控制器_VC */ = {
+			isa = PBXGroup;
+			children = (
+				04A3816B20A933DB00C65FED /* WJBaseViewController.h */,
+				04A3816C20A933DB00C65FED /* WJBaseViewController.m */,
+			);
+			path = "视图控制器_VC";
+			sourceTree = "<group>";
+		};
+		D8DEA18B0186E897BBD142B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38468ABBF1AE103D8E09A806 /* Pods-BUGTest.debug.xcconfig */,
+				EA345E0D89D95945C133283B /* Pods-BUGTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +349,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 043F60A720A1714200FE951F /* Build configuration list for PBXNativeTarget "BUGTest" */;
 			buildPhases = (
+				5FC38C5E6BD65D1D0D8BD646 /* [CP] Check Pods Manifest.lock */,
 				043F607720A1713F00FE951F /* Sources */,
 				043F607820A1713F00FE951F /* Frameworks */,
 				043F607920A1713F00FE951F /* Resources */,
+				70619F9E1FD35BF6985B2F78 /* [CP] Embed Pods Frameworks */,
+				7CD5891A6CB1DAC37084CE62 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +450,10 @@
 			files = (
 				043F608B20A1714200FE951F /* LaunchScreen.storyboard in Resources */,
 				043F608820A1714200FE951F /* Assets.xcassets in Resources */,
+				04A3817A20A9608400C65FED /* WJLearnXIBView.xib in Resources */,
+				04A3817320A9371300C65FED /* WJLearnXIBViewController.xib in Resources */,
 				043F608620A1713F00FE951F /* Main.storyboard in Resources */,
+				04A3816420A92FD200C65FED /* WJNewbieGuideCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +473,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5FC38C5E6BD65D1D0D8BD646 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BUGTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70619F9E1FD35BF6985B2F78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BUGTest/Pods-BUGTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ZJScrollPageView/ZJScrollPageView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZJScrollPageView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BUGTest/Pods-BUGTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CD5891A6CB1DAC37084CE62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BUGTest/Pods-BUGTest-resources.sh",
+				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mapapi.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BUGTest/Pods-BUGTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		043F607720A1713F00FE951F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A3815A20A92DA400C65FED /* WJNewbieGuideViewController.m in Sources */,
 				043F608320A1713F00FE951F /* ViewController.m in Sources */,
+				043F60C420A1865500FE951F /* WJUserHelper.m in Sources */,
+				04A3816320A92FD200C65FED /* WJNewbieGuideCell.m in Sources */,
+				04A3817120A936EA00C65FED /* WJLearnXIBViewController.m in Sources */,
 				043F608E20A1714200FE951F /* main.m in Sources */,
+				043F60C320A1865500FE951F /* WJDateHelper.m in Sources */,
+				043F60C020A1865500FE951F /* WJRequestHelper.m in Sources */,
+				043F60C620A1865500FE951F /* WJJSHelper.m in Sources */,
 				043F608020A1713F00FE951F /* AppDelegate.m in Sources */,
+				043B00BC20A2D0CA006DEEC4 /* WJTestDemo.m in Sources */,
+				043F60C120A1865500FE951F /* WJUIHelper.m in Sources */,
+				04A3817620A9597800C65FED /* WJLearnXIBView.m in Sources */,
+				043F60C220A1865500FE951F /* WJStringHelper.m in Sources */,
+				04A3816D20A933DB00C65FED /* WJBaseViewController.m in Sources */,
+				043F60C520A1865500FE951F /* WJDataHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,10 +731,12 @@
 		};
 		043F60A820A1714200FE951F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38468ABBF1AE103D8E09A806 /* Pods-BUGTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QZ6B892MYK;
+				GCC_PREFIX_HEADER = /Users/Mac/Desktop/BUGTest/BUGTest/PCH/PrefixHeader.pch;
 				INFOPLIST_FILE = BUGTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,10 +750,12 @@
 		};
 		043F60A920A1714200FE951F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA345E0D89D95945C133283B /* Pods-BUGTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QZ6B892MYK;
+				GCC_PREFIX_HEADER = /Users/Mac/Desktop/BUGTest/BUGTest/PCH/PrefixHeader.pch;
 				INFOPLIST_FILE = BUGTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
